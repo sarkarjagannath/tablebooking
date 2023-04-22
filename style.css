@@ -282,4 +282,10 @@ form input[type=submit]:hover {
         padding: 0;
         margin: 0;
     }
+        .card-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+/*         gap: 20px; */
+        margin: 0px;
+    }
 }
