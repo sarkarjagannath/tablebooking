@@ -270,4 +270,11 @@ form input[type=submit]:hover {
     .card-img{
         display: none;
     }
+      .card-content{
+        padding-top: 30px;
+        background:transparent;
+        height: 400px; 
+        width: fit-content;    /*change this to increase form*/
+        backdrop-filter: blur(5px);
+    }
 }
