@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Table Booking Form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <section class = "banner">
+            <h2>BOOK YOUR TABLE NOW</h2>
+            <div class="container-fluid"></div>
+            <div class = "card-container">
+                <div class = "card-img">
+                    <!-- image here -->
+                </div>
+
+                <div class = "card-content">
+                    <!-- <h3>Reservation</h3> -->
+                    <form>
+                        <div class = "form-row input">
+                            <label for="date" class="abc ">Select Date:</label>
+                            <input type="date" name="myDate" required class="date-input d" >
+                            <!-- <input type="date" name="myDate" class="date-input"> -->
+
+                            <label for="time" class="abc2">Select time:</label>
+                            <input type="time" class="d time-input" value="13:00" step="900">
+                        
+                        </div>
+
+                        <div class = "form-row">
+                             <input type = "text" placeholder="Full Name" required class="require">
+                            <input type = "text" placeholder="Phone Number" required class="require">
+                        </div>
+
+                        <div class = "form-row">
+                            <input type = "text" placeholder="Email id" required class="require">
+
+                            <select name = "food" class="select-box" required class="require">
+                                <option value = "bng" class="select-col">Bengali</option>
+                                <option value = "" selected disabled hidden>food preferences</option>
+                                <option value = "n-ind" class="select-col">North Indian</option>
+                                <option value = "s-ind" class="select-col">South Indian</option>
+                                <option value = "gr" class="select-col">Gujarati</option>
+                                <option value = "itl" class="select-col">Italian</option>
+                                <option value = "cns" class="select-col">chinese</option>
+                            </select>
+                        </div>
+
+                      
+
+                        <div class = "form-row">
+                            <input type = "number" placeholder="How Many Persons?" min = "1" required class="require">
+                            <input type = "submit" class="btn" value = "BOOK TABLE">
+                        </div>
+
+                        
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+    </body>
+</html>

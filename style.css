@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.banner{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("food.jpg") center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding-bottom: 20px;
+   
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: 420px 420px;
+}
+.card-img{
+    background: url("table.jpg") center/cover no-repeat;
+
+    border-radius: 50% 20% / 10% 40%;
+
+}
+.banner h2{
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.card-content{
+    padding-top: 30px;
+    background:transparent;
+    height: 400px;     /*change this to increase form*/
+    backdrop-filter: blur(5px);
+}
+.card-content h3{
+    text-align: center;
+    color: #fff;
+    padding: 25px 0 10px 0;
+    font-size: 26px;
+    font-weight: 500;
+}
+.select-box{
+    font-weight: 500;
+}
+.form-row{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+form select, form input{
+    display: block;
+    width: 100%;
+    margin: 15px 12px;
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #eee;
+    font-weight: 300;
+    background: transparent;
+}
+form input[type = text], form input[type = number], form input::placeholder, select{
+    /* color: #9a9a9a; */
+    color: white;
+    font-weight: 500;
+}
+.select-col{
+    background-color: #6f6871;
+}
+.btn{
+    color: #fff;
+    background: #159895;
+    padding: 12px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+}
+form input[type = submit]:hover{
+    opacity: 0.9;
+}
+
+    .inputbox date input {
+        width: 100%;
+        height: 50px;
+        background: transparent;
+        border: none;
+        outline: none;
+        font-size: 1em;
+        padding:0 35px 0 5px;
+        color: #fff;
+    }
+    .abc{
+        position:absolute;
+        left:37px
+     }
+     .abc2{
+        position: absolute;
+        left:228px
+     }
+ .d{
+    color: #fff;
+    font-weight: 400;
+ }
+ .date-input::-webkit-calendar-picker-indicator {
+    background-color:#fff;
+    /* filter: invert(1); */
+}
+  
+input[type="time"]::-webkit-calendar-picker-indicator{
+    background-color:white;
+    }
+
+
+@media(min-width:321px) and (max-width:768px){
+    
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("food.jpg") center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    gap: 20px;
+    margin: 20px;
+}
+
+.card-img {
+    background: url("table.jpg") center/cover no-repeat;
+    border-radius: 50% 20% / 10% 40%;
+    height: 400px;
+}
+
+.banner h2 {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.card-content {
+    padding-top: 30px;
+    background: transparent;
+    height: 400px;
+}
+
+.card-content h3 {
+    text-align: center;
+    color: #fff;
+    padding: 25px 0 10px 0;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.select-box {
+    font-weight: 500;
+}
+
+.form-row {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+form select,
+form input {
+    display: block;
+    width: 100%;
+    margin: 15px 12px;
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #eee;
+    font-weight: 300;
+    background: transparent;
+}
+
+form input[type=text],
+form input[type=number],
+form input::placeholder,
+select {
+    color: white;
+    font-weight: 500;
+}
+
+.select-col {
+    background-color: #6f6871;
+}
+
+.btn {
+    color: #fff;
+    background: #159895;
+    padding: 12px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+form input[type=submit]:hover {
+    opacity: 0.9;
+}
+
+.inputbox date input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: #fff;
+}
+
+.abc {
+    position: absolute;
+    left: 37px
+}
+
+.abc2 {
+    position: absolute;
+    left: 228px
+}
+
+.d {
+    color: #fff;
+    font-weight: 400;
+}
+
+.date-input::-webkit-calendar-picker-indicator {
+    background-color: #fff;
+    /* filter: invert(1); */
+}
+
+/* input[type="time"]::-webkit-calendar-picker-ind */
+
+
+}
+
+@media(max-width: 480px){
+    .card-img{
+        display: none;
+    }
+}
