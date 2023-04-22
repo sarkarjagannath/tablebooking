@@ -274,7 +274,7 @@ form input[type=submit]:hover {
         padding-top: 30px;
         background:transparent;
         height: 400px; 
-        width: 350px;
+        width: 400px;
         backdrop-filter: blur(5px);
     }
      * {
